@@ -1,0 +1,77 @@
+/** {*/
+/*    padding: 0;*/
+/*    margin: 0;*/
+/*}*/
+
+body {
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+header {
+    padding: 50px;
+    background: url("#");
+}
+
+/*去除标签下划线*/
+a {
+    text-decoration: none;
+}
+
+/*导航栏*/
+nav {
+    height: 40px;
+    background-color: #333333;
+}
+
+nav div.navbar {
+    width: 1226px;
+    /*padding-top: 8px;*/
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+    /*display: table;*/
+    /*display: flex;*/
+    /*justify-content:center;*/
+    /*color: white;*/
+}
+
+nav div.navbar div.left {
+    height: 100%;
+    float: left;
+}
+
+nav div.navbar a, nav div.navbar span {
+    float: left;
+    margin-right: 5px;
+    /*指定元素行盒的最小高度——文字水平居中*/
+    line-height: 40px;
+    color: #b0b0b0;
+}
+/*购物车图标*/
+nav div.navbar img {
+    height: 15px;
+    padding-top: 13px;
+    padding-right: 5px;
+    margin-left: 10px;
+    float: left;
+}
+
+nav div.shopping {
+    float: right;
+    background-color: #424242;
+    box-sizing: border-box;
+    height: 40px;
+    width: 120px;
+    padding-left: 15px;
+}
+
+.shopping a{
+    margin-left: 5px;
+}
+
+
+nav div.loggin {
+    float: right;
+}
