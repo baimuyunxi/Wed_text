@@ -1,0 +1,192 @@
+/*全局*/
+
+body {
+    padding: 0;
+    margin: 0;
+    color: #333;
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+/*去除标签下划线*/
+a {
+    text-decoration: none;
+}
+
+/*导航栏*/
+nav {
+    height: 40px;
+    background-color: #333333;
+}
+
+nav div.navbar {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+}
+
+nav div.navbar div.left {
+    height: 100%;
+    float: left;
+}
+
+nav div.navbar a, nav div.navbar span {
+    float: left;
+    margin-right: 5px;
+    /*指定元素行盒的最小高度——文字水平居中*/
+    line-height: 40px;
+    color: #b0b0b0;
+}
+
+/*购物车图标*/
+nav div.navbar img {
+    height: 15px;
+    padding-top: 13px;
+    padding-right: 5px;
+    margin-left: 10px;
+    float: left;
+}
+
+nav div.shopping {
+    float: right;
+    background-color: #424242;
+    box-sizing: border-box;
+    height: 40px;
+    width: 120px;
+    padding-left: 15px;
+}
+
+.shopping a {
+    margin-left: 5px;
+}
+
+nav div.left a:hover, div.loggin a:hover {
+    color: white;
+}
+
+.shopping:hover, .shopping:hover a {
+    background-color: white;
+    color: coral;
+}
+
+nav div.loggin {
+    float: right;
+}
+
+/*主题部分*/
+ul li {
+    display: inline;
+    list-style-type: none;
+    padding: 5px 5px;
+    line-height: 75px;
+    /*color: black;*/
+    /*font-size: 16px;*/
+}
+
+ul li a {
+    color: black;
+}
+
+ul li a:hover {
+    color: coral;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.header, .header .container {
+    position: relative;
+}
+
+.container {
+    width: 1226px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section div.header_logo {
+    float: left;
+    width: 62px;
+    margin-top: 22px;
+}
+
+section div.search {
+    float: right;
+}
+
+.header .logo {
+    position: relative;
+    display: block;
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+}
+
+.header .header_nav {
+    width: 850px;
+    float: left;
+}
+
+.header .nav_category {
+    position: relative;
+    float: left;
+    width: 127px;
+    padding-right: 15px;
+}
+
+.header .nav_list {
+    position: relative;
+    z-index: 0;
+    float: left;
+    width: 1100px;
+    height: 88px;
+    margin: 0;
+    padding: 12px 0 0 30px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+input {
+    width: 223px;
+    height: 48px;
+    padding: 0 10px 0 10px;
+    float: left;
+    border: 1px solid #b0b0b0;
+    font-size: 16px;
+    margin-top: 25px;
+    /*box-sizing: content-box;*/
+}
+
+.header .iconfont {
+    right: 0;
+    z-index: 4;
+    width: 52px;
+    height: 50px;
+    float: right;
+    border-left: 0;
+    margin-right: 5px;
+    font-size: 24px;
+    line-height: 24px;
+    /*background: #fff;*/
+    color: #616161;
+}
+
+.header .iconfont:hover {
+    color: coral;
+}
+
+.search-btn {
+    z-index: 4;
+    background-image: url(images/查找.png); /*设置图片的地址*/
+    padding-left: 30px; /*设置内边距防止遮盖住图片*/
+    /*height: 36px;             !*input高度*!*/
+    /*width: 240px;                  !*input宽度*!*/
+    background-size: 25px 25px; /*这里是图片的大小*/
+    background-repeat: no-repeat; /*让图片不重复*/
+    background-position: center; /*图片在input中的位置居中*/
+}
